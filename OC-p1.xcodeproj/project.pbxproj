@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E3744DB1E2FB3A8007A7C19 /* PlayingCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3744DA1E2FB3A8007A7C19 /* PlayingCardViewController.m */; };
 		5E9889A71E2B661D000D2313 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9889A61E2B661D000D2313 /* main.m */; };
 		5E9889AA1E2B661D000D2313 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9889A91E2B661D000D2313 /* AppDelegate.m */; };
 		5E9889AD1E2B661D000D2313 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9889AC1E2B661D000D2313 /* ViewController.m */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E3744D91E2FB3A8007A7C19 /* PlayingCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardViewController.h; sourceTree = "<group>"; };
+		5E3744DA1E2FB3A8007A7C19 /* PlayingCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardViewController.m; sourceTree = "<group>"; };
 		5E9889A21E2B661D000D2313 /* OC-p1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OC-p1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E9889A61E2B661D000D2313 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5E9889A81E2B661D000D2313 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				5E9889AB1E2B661D000D2313 /* ViewController.h */,
+				5E3744D91E2FB3A8007A7C19 /* PlayingCardViewController.h */,
+				5E3744DA1E2FB3A8007A7C19 /* PlayingCardViewController.m */,
 				5E9889AC1E2B661D000D2313 /* ViewController.m */,
 				5E9889AE1E2B661D000D2313 /* Main.storyboard */,
 				5E9889B11E2B661D000D2313 /* Assets.xcassets */,
@@ -186,6 +191,7 @@
 			files = (
 				5E9889C61E2BCF6C000D2313 /* PlayingCard.m in Sources */,
 				5E9889C31E2B69B7000D2313 /* Deck.m in Sources */,
+				5E3744DB1E2FB3A8007A7C19 /* PlayingCardViewController.m in Sources */,
 				5E9889AD1E2B661D000D2313 /* ViewController.m in Sources */,
 				5E9889AA1E2B661D000D2313 /* AppDelegate.m in Sources */,
 				5E9889CD1E2CAFE9000D2313 /* CardMatchingGame.m in Sources */,
@@ -348,6 +354,7 @@
 				5E9889BB1E2B661D000D2313 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

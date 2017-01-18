@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "PlayingCardDeck.h"
 #import "CardMatchingGame.h"
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *score;
@@ -24,9 +23,9 @@
     self.game = [[CardMatchingGame alloc] initWithCardCount:[self.cardButtons count] usingDect:[self creatDeck]];
     [self updateUI];
 }
-
-- (PlayingCardDeck *)creatDeck{
-    return [[PlayingCardDeck alloc]init];
+// abstract
+- (Deck *)creatDeck{
+    return nil;
 }
 - (IBAction)touchButton:(UIButton *)sender {
     NSUInteger cardIndex = [self.cardButtons indexOfObject:sender];
